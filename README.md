@@ -1,2 +1,3 @@
-# Project_Capstone_EcoSync
-Repository ini berisi tentang project akhir capstone dengan tema Sumber Daya Alam, Ekosistem, dan Perubahan Iklim
+## EcoSync
+
+Platform pemantauan lingkungan yang terintegrasi, menyediakan akses data, analisis, dan kesadaran lingkungan untuk keberlanjutan global. Mengumpulkan data lingkungan dari berbagai sumber, memberikan informasi terkini, mendorong kesadaran dan tindakan positif terhadap lingkungan.

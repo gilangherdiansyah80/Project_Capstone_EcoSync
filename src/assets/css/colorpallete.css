@@ -1,0 +1,15 @@
+/* Color pallete */
+.color1{
+    background-color: #2A3C2E;
+}
+.color2{
+    background-color: #669179d7;
+}
+.color3{
+    background-color: #1AB15B;
+}
+
+.color2-blur{
+    background-color: #669179;
+    filter: blur(5px);
+}

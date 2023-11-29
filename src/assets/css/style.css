@@ -1,0 +1,10 @@
+.hover-card {
+    /* * Define a transition property for smooth changes */
+    transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+    /* card-getting bigger while  */
+    transform: scale(1.07);
+
+}

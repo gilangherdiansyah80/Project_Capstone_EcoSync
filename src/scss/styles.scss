@@ -8,6 +8,12 @@ $background-color_2: #669179d7;
 $background-color_3: #1AB15B;
 $background-color_4: #669179;
 
+/* font style */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Color pallete */
 .color1 {
     background-color: $background-color_1;

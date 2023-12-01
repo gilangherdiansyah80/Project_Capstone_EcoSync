@@ -13,7 +13,8 @@ class footerCustom extends HTMLElement {
                     <p class="mt-3">Dengan fokus pada keberlanjutan dan inovasi, EcoSync memberikan pemahaman yang
                         mendalam kepada pengguna tentang tantangan lingkungan saat ini. Platform ini tidak hanya
                         menggabungkan data, tetapi juga menyediakan solusi praktis untuk perbaikan ekosistem dan
-                        pemantauan cuaca.</p>
+                        pemantauan cuaca.
+                    </p>
                 </div>
                 <div class="col-md-3 offset-md-2">
                     <h5 class="text-center text-md-start">Contact</h5><br>

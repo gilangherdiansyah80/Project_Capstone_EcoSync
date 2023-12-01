@@ -1,0 +1,58 @@
+@media only screen and (max-width: 992px) {
+    .cuaca-hourly {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .item-hourly {
+        width: 100px;
+    }
+
+    .bbottom {
+        width: max-content;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .border-cuaca {
+        border-right: 0px solid;
+        border-bottom: 3px solid white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .vertical {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .horly-cuaca {
+        width: 100%;
+        margin-left: 0 !important;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bbottom {
+        margin: 35px auto;
+        border-bottom: 1px solid white;
+        width: max-content;
+    }
+
+    .cuaca-hourly {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 434px) {
+    .cuaca-hourly {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}

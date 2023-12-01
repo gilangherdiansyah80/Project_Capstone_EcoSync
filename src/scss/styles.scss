@@ -2,11 +2,31 @@
 
 $color_1: #9ca3af;
 $color_2: black;
-$background-color_1: #669179;
 
-/* .item-hourly img{
-    max-width: 150px;
-} */
+$background-color_1: #2A3C2E;
+$background-color_2: #669179d7;
+$background-color_3: #1AB15B;
+$background-color_4: #669179;
+
+/* Color pallete */
+.color1 {
+    background-color: $background-color_1;
+}
+
+.color2 {
+    background-color: $background-color_2;
+}
+
+.color3 {
+    background-color: $background-color_3;
+}
+
+.color2-blur {
+    background-color: $background-color_4;
+    filter: blur(5px);
+}
+
+// ==========search Components=========
 .form {
     position: relative;
 
@@ -41,6 +61,8 @@ $background-color_1: #669179;
     }
 }
 
+// ========Card Cuaca===========
+
 .bbottom {
     border-bottom: 1px solid white;
 }
@@ -60,65 +82,14 @@ $background-color_1: #669179;
 }
 
 .card-weather {
-    background-color: $background-color_1;
+    background-color: $background-color_4;
     box-shadow: 10px 10px 37px -12px rgba(102, 145, 121, 1);
 }
 
-@media only screen and (max-width: 992px) {
-    .cuaca-hourly {
-        width: 100%;
-        display: flex;
-        margin: auto;
-        justify-content: center;
-    }
+.hover-card {
+    transition: all 0.3s ease;
 
-    .item-hourly {
-        width: 100px;
-    }
-
-    .bbottom {
-        width: max-content;
-    }
-}
-
-@media only screen and (max-width: 560px) {
-    .border-cuaca {
-        border-right: 0px solid;
-        border-bottom: 3px solid white;
-        width: 100%;
-        text-align: center;
-    }
-
-    .vertical {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .horly-cuaca {
-        width: 100%;
-        margin-left: 0 !important;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .bbottom {
-        margin: 35px auto;
-        border-bottom: 1px solid white;
-        width: max-content;
-    }
-
-    .cuaca-hourly {
-        display: flex;
-        margin: auto;
-        justify-content: center;
-        gap: 15px;
-    }
-}
-
-@media only screen and (max-width: 434px) {
-    .cuaca-hourly {
-        margin: auto;
-        display: flex;
-        justify-content: center;
+    &:hover {
+        transform: scale(1.07);
     }
 }

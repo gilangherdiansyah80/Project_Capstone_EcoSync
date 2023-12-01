@@ -1,3 +1,6 @@
-import '../scss/styles.scss'
-// import '../scss/main.css'
-import * as bootstrap from 'bootstrap'
+import '../scss/styles.scss';
+import '../scss/responsive.scss'
+import * as bootstrap from 'bootstrap';
+import '../components/navbarComponent';
+import '../components/footerComponent';
+import '../components/head-custom';

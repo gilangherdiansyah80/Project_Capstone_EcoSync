@@ -9,7 +9,6 @@ class footerCustom extends HTMLElement {
             <div class="container">
             <div class="row">
                 <div class="col-md-5 text-center text-md-start">
-                    <!-- <img src="src/assets/images/logo-ecosync.png" alt=""> -->
                     <h3 class="fw-bold">EcoSync</h3><br>
                     <p class="mt-3">Dengan fokus pada keberlanjutan dan inovasi, EcoSync memberikan pemahaman yang
                         mendalam kepada pengguna tentang tantangan lingkungan saat ini. Platform ini tidak hanya

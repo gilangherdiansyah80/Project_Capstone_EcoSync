@@ -1,10 +1,10 @@
 class footerCustom extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
             <footer class="mt-5 py-5 color1 text-white">
             <div class="container">
             <div class="row">
@@ -56,7 +56,7 @@ class footerCustom extends HTMLElement {
             </div>
     </footer>
         `;
-    }
+  }
 }
 
 customElements.define('footer-custom', footerCustom);

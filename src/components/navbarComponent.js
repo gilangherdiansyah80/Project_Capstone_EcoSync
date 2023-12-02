@@ -8,7 +8,7 @@ class navbarCustom extends HTMLElement {
             <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid px-lg-5">
                 <a href="#" class="navbar-brand">
-                    <img class="w-75" src="./image/logo.png" alt="...">
+                    <img class="w-50" src="./image/logo.png" alt="...">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@ class navbarCustom extends HTMLElement {
                             <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Cuaca</a>
+                            <a class="nav-link" href="cuaca.html">Cuaca</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Bencana alam</a>

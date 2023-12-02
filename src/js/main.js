@@ -1,3 +1,4 @@
+import 'regenerator-runtime';
 import '../scss/styles.scss';
 import '../scss/responsive.scss'
 import * as bootstrap from 'bootstrap';

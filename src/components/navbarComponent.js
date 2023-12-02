@@ -20,7 +20,7 @@ class navbarCustom extends HTMLElement {
                             <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Cuaca</a>
+                            <a class="nav-link" href="cuaca.html">Cuaca</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Bencana alam</a>

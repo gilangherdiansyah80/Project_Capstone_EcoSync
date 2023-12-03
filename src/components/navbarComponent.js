@@ -26,7 +26,10 @@ class navbarCustom extends HTMLElement {
                             <a class="nav-link" href="#">Bencana alam</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="aboutus.html" tabindex="-1" aria-disabled="true">About Us</a>
+                            <a class="nav-link" href="donasi.html">Donasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
                         </li>
                     </ul>
                 </div>

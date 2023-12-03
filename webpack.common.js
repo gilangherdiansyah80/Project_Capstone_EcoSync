@@ -65,6 +65,10 @@ module.exports = {
       filename: 'aboutus.html',
       template: path.resolve(__dirname, 'src/aboutus.html'),
     }),
+    new HtmlWebpackPlugin({
+      filename: 'donasi.html',
+      template: path.resolve(__dirname, 'src/donasi.html'),
+    }),
     new CopyWebpackPlugin({
       patterns: [
         {

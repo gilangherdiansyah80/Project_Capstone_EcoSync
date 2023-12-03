@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head-custom></head-custom>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <navbar-custom>
+    </div>
+
+     <div class="container">
+      <div class="card-title py-2"><h1>Temukan letak Bencana</h1></div>
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3 w-100 rounded-5 shadow-sm hover-card" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./kebakaran.jpg"
+                  class="img-fluid rounded-5 h-100 p-3  "
+                  alt="kebakaran"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none "><h5 class="card-title link-dark link-opacity-25-hover">Kebakaran</h5></a>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 w-100 rounded-5 shadow-sm hover-card" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./kebakaran.jpg"
+                  class="img-fluid rounded-5 h-100 p-3  "
+                  alt="kebakaran"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none "><h5 class="card-title link-dark link-opacity-25-hover">Kebakaran</h5></a>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 w-100 rounded-5 shadow-sm hover-card" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./kebakaran.jpg"
+                  class="img-fluid rounded-5 h-100 p-3  "
+                  alt="kebakaran"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none "><h5 class="card-title link-dark link-opacity-25-hover">Kebakaran</h5></a>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div id="map" class="peta">
+            <script>
+                getLocation();
+                    function getLocation() {
+                    if (navigator.geolocation) {
+                        navigator.geolocation.getCurrentPosition(showPosition);
+                    }
+                    }
+                    function showPosition(position) {
+                    let lat = position.coords.latitude;
+                    let long = position.coords.longitude;
+
+                    var map = L.map("map").setView([lat, long], 15);
+
+                    L.marker([lat, long])
+                        .addTo(map)
+                        .bindPopup("your current location")
+                        .openPopup();
+
+                    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}", {
+                        foo: "bar",
+                        attribution:
+                        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                    }).addTo(map);
+                    }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer-custom></footer-custom>
+</body>
+</html>

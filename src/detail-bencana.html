@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head-custom></head-custom>
+    <head-custom>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+               <!-- Make sure you put this AFTER Leaflet's CSS -->
+               <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    </head-custom>
 
 <body>
     <!-- Navbar -->
@@ -13,11 +17,23 @@
       <div class="card-title py-2"><h1>Temukan letak Bencana</h1></div>
       <div class="row">
         <div class="col">
-          <div class="card mb-3 w-100 rounded-5 shadow-sm hover-card" style="max-width: 540px;">
+            <!-- search button -->
+            <div class="container">
+                <div class="row height mt-10">
+                    <div class="col-md-10">
+                        <div class="form">
+                            <i class="bi bi-search"></i>
+                            <input type="text" class="form-control form-input" placeholder="Search anything...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- breaking news -->
+          <div class="card mb-3 w-100 rounded-5 shadow-sm hover-card mt-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="./kebakaran.jpg"
+                  src="https://cdn.pixabay.com/photo/2019/08/25/13/19/fire-4429478_1280.jpg"
                   class="img-fluid rounded-5 h-100 p-3  "
                   alt="kebakaran"
                 />
@@ -43,7 +59,7 @@
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="./kebakaran.jpg"
+                  src="https://cdn.pixabay.com/photo/2019/08/25/13/19/fire-4429478_1280.jpg"
                   class="img-fluid rounded-5 h-100 p-3  "
                   alt="kebakaran"
                 />
@@ -69,7 +85,7 @@
             <div class="row g-0">
               <div class="col-md-4">
                 <img
-                  src="./kebakaran.jpg"
+                  src="https://cdn.pixabay.com/photo/2019/08/25/13/19/fire-4429478_1280.jpg"
                   class="img-fluid rounded-5 h-100 p-3  "
                   alt="kebakaran"
                 />
@@ -92,8 +108,10 @@
             </div>
           </div>
         </div>
+
+        <!-- Maps -->
         <div class="col">
-          <div id="map" class="peta">
+          <div id="map" class="h-100 rounded-5">
             <script>
                 getLocation();
                     function getLocation() {
@@ -105,7 +123,7 @@
                     let lat = position.coords.latitude;
                     let long = position.coords.longitude;
 
-                    var map = L.map("map").setView([lat, long], 15);
+                    var map = L.map("map").setView([lat, long], 13);
 
                     L.marker([lat, long])
                         .addTo(map)
@@ -115,7 +133,7 @@
                     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}", {
                         foo: "bar",
                         attribution:
-                        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
                     }).addTo(map);
                     }
             </script>

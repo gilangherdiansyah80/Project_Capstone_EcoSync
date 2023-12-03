@@ -1,10 +1,10 @@
 class navbarCustom extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
             <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid px-lg-5">
                 <a href="#" class="navbar-brand">
@@ -26,14 +26,14 @@ class navbarCustom extends HTMLElement {
                             <a class="nav-link" href="#">Bencana alam</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+                            <a class="nav-link" href="aboutus.html" tabindex="-1" aria-disabled="true">About Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         `;
-    }
+  }
 }
 
 customElements.define('navbar-custom', navbarCustom);

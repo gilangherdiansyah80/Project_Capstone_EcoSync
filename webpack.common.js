@@ -70,10 +70,6 @@ module.exports = {
       template: path.resolve(__dirname, 'src/donasi.html'),
     }),
     new HtmlWebpackPlugin({
-      filename: 'bencana.html',
-      template: path.resolve(__dirname, 'src/bencana.html')
-    }),
-    new HtmlWebpackPlugin({
       filename: 'detail-bencana.html',
       template: path.resolve(__dirname, 'src/detail-bencana.html')
     }),

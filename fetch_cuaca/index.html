@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Cuaca</title>
+</head>
+<style>
+    #rek-pencarian {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        display: none;
+        max-height: 150px;
+        overflow-y: auto;
+    }
+    .result-item {
+      padding: 8px;
+      cursor: pointer;
+    }
+
+    .result-item:hover {
+      background-color: #f0f0f0;
+    }
+</style>
+
+<body>
+    <h1 id="fetch">Fetch Cuaca</h1>
+    <form action="">
+        <!-- search and the button -->
+        <input type="text" id="search-loc" placeholder="Search Location">
+        <button type="submit" id="submit">Search</button>
+    </form>
+    <div id="search-results"></div>
+    <!-- show the result -->
+    <div id="show-api">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -5,24 +5,36 @@
 
 <body>
     <div class="container">
-        <navbar-custom>
+        <navbar-custom></navbar-custom>
     </div>
     <main>
+        <!-- <div class="container">
+            <div class="row height d-flex justify-content-center mt-5">
+                <div class="col-md-6">
+                    <div class="form">
+                        <i class="bi bi-search"></i>
+                        <input id="search-loc" type="text" class="form-control form-input" placeholder="Search anything...">
+                    </div>
+                    <div id="search-results"></div>
+                </div>
+            </div>
+        </div> -->
         <div class="container">
             <div class="row height d-flex justify-content-center mt-5">
                 <div class="col-md-6">
                     <div class="form">
                         <i class="bi bi-search"></i>
-                        <input type="text" class="form-control form-input" placeholder="Search anything...">
+                        <input id="search-loc" type="text" class="form-control form-input" placeholder="Search anything...">
                     </div>
+                    <div id="search-results"></div>
                 </div>
             </div>
         </div>
 
-        <section class="content container mt-5">
+        <section id="show-api" class="content container mt-5">
             <h3><span class="me-2">Cuaca</span><i class="bi bi-cloud-moon"></i></h3>
 
-            <div class="card mb-3 text-white p-4 card-weather">
+            <div id="search-results" class="card mb-3 text-white p-4 card-weather">
                 <div class="card-body vertical row">
                     <div class="col-5 border-cuaca">
                         <h5 class="card-title text-black">Bandung, Indonesia</h5>
@@ -116,7 +128,105 @@
     </main>
     <footer-custom></footer-custom>
 
-    <script src="./main.js"></script>
+    <script>
+        const inputElement = document.getElementById("search-loc");
+        const searchResults = document.getElementById('search-results');
+        let locData = [];
+
+        async function getLocWeather() {
+            const weatherLocation = "https://ibnux.github.io/BMKG-importer/cuaca/wilayah.json";
+            try {
+                const response = await fetch(weatherLocation);
+                const data = await response.json();
+                console.log(data);
+
+                for (let i = 0; i < data.length; i++) {
+                    let loc = data[i];
+                    const locSpecific = { id: `${loc.id}`, Wilayah: `${loc.kecamatan}, ${loc.kota}, ${loc.propinsi}` };
+                    if (loc.id != '0') {
+                        locData.push(locSpecific);
+                    }
+                }
+                console.log(locData);
+            } catch (error) {
+                console.error("Error:", error);
+            }
+        }
+
+        async function getWeather(idWilayah, wilayah) {
+            const spesficLocation = `https://ibnux.github.io/BMKG-importer/cuaca/${idWilayah}.json`;
+            searchResults.style.display = 'none';
+            inputElement.value = wilayah;
+            try {
+                const response = await fetch(spesficLocation);
+                const data = await response.json();
+
+                const [element] = data;
+                if (element) {
+                    const cuaca = document.createElement("p");
+                    const kodeCuaca = document.createElement("p");
+                    const tempC = document.createElement("p");
+                    const jamCuaca = document.createElement("p");
+
+                    cuaca.innerText = `Cuaca : ${element.cuaca}`;
+                    kodeCuaca.innerText = `Kode Cuaca : ${element.kodeCuaca}`;
+                    tempC.innerText = `Temperature Celcius : ${element.tempC}`;
+                    jamCuaca.innerText = `Jam Cuaca : ${element.jamCuaca}`;
+
+                    const divElement = document.getElementById("show-api");
+                    divElement.innerHTML = '';
+                    divElement.appendChild(cuaca);
+                    divElement.appendChild(kodeCuaca);
+                    divElement.appendChild(tempC);
+                    divElement.appendChild(jamCuaca);
+                }
+            } catch (error) {
+                console.error("Error:", error);
+            }
+        }
+
+        function addAutocomplete() {
+            inputElement.addEventListener('input', function () {
+                const searchTerm = inputElement.value.toLowerCase();
+                const matchingSuggestions = locData.filter(locSpecificData =>
+                    locSpecificData.Wilayah.toLowerCase().includes(searchTerm)
+                );
+
+                displayAutocomplete(matchingSuggestions);
+            });
+
+            searchResults.addEventListener('click', function (event) {
+                const isResultItem = event.target.classList.contains('result-item');
+                if (isResultItem) {
+                    const selectedId = event.target.getAttribute('data-id');
+                    const selectedValue = event.target.textContent;
+
+                    inputElement.value = selectedValue;
+                    searchResults.style.display = 'none';
+
+                    getWeather(selectedId, selectedValue);
+                }
+            });
+        }
+
+        function displayAutocomplete(locationsData) {
+            if (locationsData.length > 0) {
+                const locationsDataHTML = locationsData.map(locSpecificData =>
+                    `<div class="result-item" data-id="${locSpecificData.id}">${locSpecificData.Wilayah}</div>`
+                ).join('');
+                searchResults.innerHTML = locationsDataHTML;
+                searchResults.style.display = 'block';
+            } else {
+                searchResults.style.display = 'none';
+            }
+        }
+
+        // Inisialisasi data wilayah saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', async () => {
+            await getLocWeather();
+            addAutocomplete();
+        });
+    </script>
 </body>
 
 </html>

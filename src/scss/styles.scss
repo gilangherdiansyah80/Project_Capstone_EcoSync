@@ -99,3 +99,8 @@ $background-color_4: #669179;
         transform: scale(1.07);
     }
 }
+
+.scrollable-container {
+    max-height: 750px; /* Adjust the height as needed */
+    overflow-y: auto;
+}

@@ -3,6 +3,7 @@ const inputElement = document.getElementById("search-loc");
 const showApi = document.getElementById("show-api");
 const searchResults = document.getElementById('search-results');
 
+
 let locData = [];
 
 // ini untuk mendapatkan id wilayah
@@ -13,10 +14,10 @@ async function getLocWeather() {
         const data = await response.json();
         console.log(data);
 
-        
+
         for (let i = 0; i < data.length; i++) {
             let loc = data[i];
-            const locSpecific = {id: `${loc.id}`, Wilayah: `${loc.kecamatan}, ${loc.kota}, ${loc.propinsi}`};
+            const locSpecific = { id: `${loc.id}`, Wilayah: `${loc.kecamatan}, ${loc.kota}, ${loc.propinsi}` };
             if (loc.id != '0') {
                 locData.push(locSpecific);
             }
@@ -28,7 +29,7 @@ async function getLocWeather() {
 }
 getLocWeather();
 
-inputElement.addEventListener('input', function() {
+inputElement.addEventListener('input', function () {
     const searchTerm = inputElement.value.toLowerCase();
     const matchingSuggestions = locData.filter(locSpecificData =>
         locSpecificData.Wilayah.toLowerCase().includes(searchTerm)
@@ -37,7 +38,7 @@ inputElement.addEventListener('input', function() {
     displaySuggestions(matchingSuggestions.slice(0, 5));
 })
 
-document.addEventListener('click', function(event) {
+document.addEventListener('click', function (event) {
     const isClickedInsideResults = searchResults.contains(event.target);
 
     if (!isClickedInsideResults) {
@@ -67,10 +68,9 @@ function selectSuggestion(selectedId, selectedValue) {
 
 
 const divElement = document.createElement("div");
-// menambahkan class untuk div
 divElement.classList.add("card");
 const cuaca = document.createElement("p");
-const kodeCuaca = document.createElement("p");
+const kodeCuaca = document.createElement("img");
 const tempC = document.createElement("p");
 const jamCuaca = document.createElement("p");
 divElement.appendChild(cuaca);
@@ -92,26 +92,27 @@ async function getWeather(idWilayah, wilayah) {
         const response = await fetch(spesficLocation);
         const data = await response.json();
         // showApi.innerText = data;
+        console.log("data");
         console.log(data);
 
         for (let i = 0; i < data.length; i++) {
             const element = data[i];
-            console.log(element);
-            cuaca.innerText = `Cuaca : ${element.cuaca}`;
-            kodeCuaca.innerText = `Kode Cuaca : ${element.kodeCuaca}`;
-            tempC.innerText = `Temperature Celcius : ${element.tempC}`;
-            jamCuaca.innerText = `Jam Cuaca : ${element.jamCuaca}`;
+            // menampilkan yang jika nilai i bernilai ganjil
+            if (i % 2 == 1) {
+                showApi.innerHTML += `
+                <div class="card-weather" style="border: 1px solid black; padding: 5px; max-width: 25%; display: flex; flex-direction: column; justify-content: center; flex-wrap: wrap; align-items: center;">
+                    <h3 class="time">${element.jamCuaca}</h3>
+                    <div class="detail" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+                        <img class="weather-icon" src="https://ibnux.github.io/BMKG-importer/icon/${element.kodeCuaca}.png" alt="">
+                    <p class="tempCel">${element.tempC} derajat C</p>
+                    <p class="weather">${element.cuaca}</p>
+                    </div>
+                </div>`
+            }
+            
+            
         }
     } catch (error) {
         console.error("Error:", error);
     }
 }
-
-// formElement.addEventListener("submit", (event) => {
-//     event.preventDefault();
-    // console.log(inputElement.value);
-    // getWeather("501400");
-//     getWeather(inputElement.value);
-
-// });
-

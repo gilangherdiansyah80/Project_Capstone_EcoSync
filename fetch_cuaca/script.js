@@ -65,23 +65,6 @@ function selectSuggestion(selectedId, selectedValue) {
     console.log('Selected Id:', selectedId);
 }
 
-
-
-const divElement = document.createElement("div");
-divElement.classList.add("card");
-const cuaca = document.createElement("p");
-const kodeCuaca = document.createElement("img");
-const tempC = document.createElement("p");
-const jamCuaca = document.createElement("p");
-divElement.appendChild(cuaca);
-divElement.appendChild(kodeCuaca);
-divElement.appendChild(tempC);
-divElement.appendChild(jamCuaca);
-showApi.appendChild(divElement);
-
-console.log(`Nilai ${cuaca.value}`);
-
-
 // fungsi untuk mendapatkan kondisi wilayah secara spesifik
 // async function getWeather(idWilayah, wilayah) {
 async function getWeather(idWilayah, wilayah) {
@@ -94,6 +77,9 @@ async function getWeather(idWilayah, wilayah) {
         // showApi.innerText = data;
         console.log("data");
         console.log(data);
+
+        // Clear previous results
+        showApi.innerHTML = '';
 
         for (let i = 0; i < data.length; i++) {
             const element = data[i];
@@ -109,8 +95,7 @@ async function getWeather(idWilayah, wilayah) {
                     </div>
                 </div>`
             }
-            
-            
+
         }
     } catch (error) {
         console.error("Error:", error);

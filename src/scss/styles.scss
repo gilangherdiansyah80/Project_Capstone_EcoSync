@@ -1,0 +1,106 @@
+@import "~bootstrap/scss/bootstrap";
+
+$color_1: #9ca3af;
+$color_2: black;
+
+$background-color_1: #2A3C2E;
+$background-color_2: #669179d7;
+$background-color_3: #1AB15B;
+$background-color_4: #669179;
+
+/* font style */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Color pallete */
+.color1 {
+    background-color: $background-color_1;
+}
+
+.color2 {
+    background-color: $background-color_2;
+}
+
+.color3 {
+    background-color: $background-color_3;
+}
+
+.color2-blur {
+    background-color: $background-color_4;
+    filter: blur(5px);
+}
+
+// ==========search Components=========
+.form {
+    position: relative;
+
+    .bi-search {
+        position: absolute;
+        top: 17px;
+        left: 17px;
+        color: $color_1;
+    }
+
+    span {
+        position: absolute;
+        right: 17px;
+        top: 13px;
+        padding: 2px;
+        border-left: 1px solid #d1d5db;
+    }
+}
+
+.border-cuaca {
+    border-right: 3px solid white;
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+
+    &:focus {
+        box-shadow: none;
+        border: 1px solid black;
+    }
+}
+
+// ========Card Cuaca===========
+
+.bbottom {
+    border-bottom: 1px solid white;
+}
+
+.item-hourly {
+    p {
+        text-align: center;
+        color: $color_2;
+        font-weight: bold;
+    }
+}
+
+.day-weather {
+    img {
+        max-width: 250px;
+    }
+}
+
+.card-weather {
+    background-color: $background-color_4;
+    box-shadow: 10px 10px 37px -12px rgba(102, 145, 121, 1);
+}
+
+.hover-card {
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: scale(1.07);
+    }
+}
+
+#scrollable-container {
+    max-height: 650px; /* Adjust the height as needed */
+    overflow-y: auto;
+}

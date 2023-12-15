@@ -7,17 +7,15 @@ import '../scss/responsive.scss';
 import '../components/navbarComponent';
 import '../components/footerComponent';
 import '../components/head-custom';
-import Pagination from './pagination';
 import Bencana from './cardBencana';
-import Cuaca from './cuacaLandingPage';
 import WeatherApp from './cuaca';
-
-const myPagination = new Pagination();
-myPagination.init();
+import Pagination from './pagination';
+import Cuaca from './cuacaLandingPage';
 
 const myBencana = new Bencana();
 myBencana.init();
 
+const weatherApp = new WeatherApp();
 const myCuaca = new Cuaca();
 
-const weatherApp = new WeatherApp();
+const myPagination = new Pagination();

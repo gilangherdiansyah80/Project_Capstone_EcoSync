@@ -133,4 +133,9 @@ class Pagination {
   }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+  const cardDonation = new Pagination();
+  cardDonation.currentPage();
+});
+
 export default Pagination;

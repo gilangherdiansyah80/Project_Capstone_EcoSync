@@ -10,9 +10,9 @@ import '../components/head-custom';
 import Pagination from './pagination';
 import Bencana from './cardBencana';
 import Cuaca from './cuacaLandingPage';
+import WeatherApp from './cuaca';
 
-// 
-// import nama from './cuaca';
+const weatherApp = new WeatherApp();
 
 const myPagination = new Pagination();
 myPagination.init();

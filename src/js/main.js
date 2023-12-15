@@ -11,6 +11,9 @@ import Pagination from './pagination';
 import Bencana from './cardBencana';
 import Cuaca from './cuacaLandingPage';
 
+// 
+// import nama from './cuaca';
+
 const myPagination = new Pagination();
 myPagination.init();
 

@@ -1,13 +1,13 @@
 const dataBencana = [
   {
     id: 1,
-    imageCard: 'https://cdn.pixabay.com/photo/2019/08/25/13/19/fire-4429478_1280.jpg',
-    title: 'Kebakaran',
-    location: 'tanjung morawa',
+    imageCard: 'https://pict-c.sindonews.net/webp/732/pena/news/2023/12/15/170/1277133/puting-beliung-rusak-12-rumah-warga-di-sawangan-1-korban-luka-tertimpa-asbes-wiu.webp',
+    title: 'Puting Beliung',
+    location: 'KP Perigi Bedahan, Sawangan, Depok',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    latitude: 3.52621203223751,
-    longitude: 98.78726989036186,
+        'BOGOR - Belasan rumah warga di RT3/6, Bedahan, Sawangan, Kota Depok rusak akibat diterpa angin puting beliung. Peristiwa tersebut terjadi saat hujan deras disertai angin kencang melanda Depok dan sekitarnya. "Hari sekitar jam 17.15 WIB telah terjadi bencana angin puting beliung di Kp Perigi RT 3 RW 6, Bedahan, Sawangan, Kota Depok," kata Kapolsek Bojongsari, Kompol Yefta Ruben H Aruan, pada Kamis (14/12/2023). "Kerugian materil yang baru diperkirakan 12 rumah rusak total data data warga yang terkena bencana angin puting beliung," imbuhnya. Artikel ini telah diterbitkan di halaman SINDOnews.com pada Jum`at, 15 Desember 2023 - 00:18 WIB oleh Muhammad Refi Sandi dengan judul "Puting Beliung Rusak 12 Rumah Warga di Sawangan Depok, 1 Korban Luka Tertimpa Asbes"',
+    latitude: -6.434157762105475,
+    longitude: 106.76963823236008,
   },
   {
     id: 2,

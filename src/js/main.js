@@ -11,6 +11,7 @@ import Bencana from './cardBencana';
 import WeatherApp from './cuaca';
 import Pagination from './pagination';
 import Cuaca from './cuacaLandingPage';
+import BencanaHome from './bencanaLandingPage';
 
 const myBencana = new Bencana();
 myBencana.init();
@@ -19,3 +20,5 @@ const weatherApp = new WeatherApp();
 const myCuaca = new Cuaca();
 
 const myPagination = new Pagination();
+
+const myBencanaHome = new BencanaHome();

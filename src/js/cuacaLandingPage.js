@@ -27,7 +27,7 @@ export default class Cuaca {
               style="min-height: 170px;">
               <div class="d-flex justify-content-around">
                 <img class="weather-icon" src="https://ibnux.github.io/BMKG-importer/icon/${element.kodeCuaca}.png" alt="" style="max-width: 60px;">
-                <p class="fs-3">${element.tempC}&deg;C</p>
+                <p class="fs-3">${element.tempC}&deg; C</p>
               </div>
               <p>${element.cuaca}</p>
             </div>

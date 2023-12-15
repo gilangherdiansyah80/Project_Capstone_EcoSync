@@ -1,10 +1,7 @@
-name: Lint and Test
+name: Push Changes on Success
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
 
@@ -19,15 +16,35 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+        
+    - name: Installations
+      run: npm install
 
-    # - name: Installations
-    #   run: npm install
+    - name: Linting
+      run: npm run lint
 
-    # - name: Linting
-    #   run: npm run lint
+    - name: Checkout Friend's Repository
+      uses: actions/checkout@v2
+      with:
+        repository: 'MZAINR/Capstone_Project' 
+        token: ${{ secrets.COBA3 }}
 
+    - name: Push Changes to Your Repository
+      if: success()
+      env:
+        SUPER_SECRET: ${{ secrets.COBA3 }}
+      run: |
+          git config --global user.email "zainrizqulloh@gmail.com"
+          git config --global user.name "MZAINR"
+          git remote add other_repo https://github.com/MZAINR-PROJECTS/CICD.git
+          git fetch other_repo
+          git branch -r
+          git checkout main
+          git merge other_repo/main --allow-unrelated-histories -Xtheirs
+          git push origin main

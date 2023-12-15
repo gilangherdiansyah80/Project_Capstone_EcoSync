@@ -42,7 +42,7 @@ jobs:
       run: |
           git config --global user.email "zainrizqulloh@gmail.com"
           git config --global user.name "MZAINR"
-          git remote add other_repo https://github.com/MZAINR-PROJECTS/CICD.git
+          git remote add other_repo https://github.com/gilangherdiansyah80/Project_Capstone_EcoSync.git
           git fetch other_repo
           git branch -r
           git checkout main

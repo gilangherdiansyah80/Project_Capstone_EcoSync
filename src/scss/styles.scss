@@ -8,6 +8,8 @@ $background-color_2: #669179d7;
 $background-color_3: #1AB15B;
 $background-color_4: #669179;
 
+$box-shadow-sm: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+
 /* font style */
 
 * {
@@ -52,6 +54,8 @@ $background-color_4: #669179;
     }
 }
 
+// =========Cuaca Components==========
+
 .border-cuaca {
     border-right: 3px solid white;
 }
@@ -67,7 +71,9 @@ $background-color_4: #669179;
     }
 }
 
-// ========Card Cuaca===========
+.card-landing-page {
+    box-shadow: $box-shadow-sm;
+}
 
 .bbottom {
     border-bottom: 1px solid white;

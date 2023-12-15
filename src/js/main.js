@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-loop-func */
 import 'regenerator-runtime';
@@ -8,9 +9,12 @@ import '../components/footerComponent';
 import '../components/head-custom';
 import Pagination from './pagination';
 import Bencana from './cardBencana';
+import Cuaca from './cuacaLandingPage';
 
 const myPagination = new Pagination();
 myPagination.init();
 
 const myBencana = new Bencana();
 myBencana.init();
+
+const myCuaca = new Cuaca();

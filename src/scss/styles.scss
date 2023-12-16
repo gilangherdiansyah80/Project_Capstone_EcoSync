@@ -134,3 +134,25 @@ $box-shadow-sm: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
 .result-item:hover {
     background-color: #f0f0f0;
 }
+
+
+// =========Scrollbar Weather Components==========
+.cuaca::-webkit-scrollbar {
+    width: 30px;
+}
+
+.cuaca::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.cuaca::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+.cuaca::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+
+}

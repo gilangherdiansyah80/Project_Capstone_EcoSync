@@ -2,7 +2,7 @@ import dataDonation from '../data/dataDonation';
 
 class Pagination {
   constructor() {
-    this.cardsPerPage = 4;
+    this.cardsPerPage = 8;
     this.currentPage = 1;
     this.totalCards = 0;
     this.totalPages = Math.ceil(this.totalCards / this.cardsPerPage);

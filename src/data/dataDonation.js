@@ -55,6 +55,38 @@ const dataDonation = [
     imageSmall: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fkitabisa-userupload-01.s3-ap-southeast-1.amazonaws.com%2F_production%2Fuser%2F123406029%2F23_123406029_1696835574_34_s.jpg&w=64&q=75',
     titleImageSmall: 'Rani Nurhasanah'
   },
+  {
+    imageCard: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fimgix.kitabisa.com%2Fmaster%2F2aff5658-96b9-11ee-9870-f20075e4b480_132D861DF3C50688.png%3Fauto%3Dformat%26fm%3Dpjpg%26ch%3DWidth%2CDPR%2CSave-Data%2CViewport-Width&w=640&q=75',
+    links: 'https://kitabisa.com/campaign/restorasiterumbukarang',
+    title: 'Restorasi Terumbu Karang Menggunakan Lem',
+    description: 'Perkenalkan, nama saya Intje Hajri,. Saat ini saya berperan sebagai koordinator Restorasi Terumbu Karang dalam Banggai Coastal Area Community (BCAC). BCAC sendiri merupakan organisasi yang bergerak dalam pelestarian lingkungan khususnya terumbu karang. Organisasi ini Didirikan pada Juni 2023 lalu di Banggai.',
+    imageSmall: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fimagedelivery.net%2FgmM11OjU-TYBGJH0o2xYkg%2F6dce00a9-7d49-4bef-dbaa-2add35322100%2Fh%3D150%2Cw%3D150&w=64&q=75',
+    titleImageSmall: 'Banggai Coastal Area Community'
+  },
+  {
+    imageCard: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fimgix.kitabisa.com%2F4d21b302-37d9-440c-a27c-6951cc03574b.jpg%3Fauto%3Dformat%26fm%3Dpjpg%26ch%3DWidth%2CDPR%2CSave-Data%2CViewport-Width&w=640&q=75',
+    links: 'https://kitabisa.com/campaign/tabungoksigenuntukbumi',
+    title: 'Yuk Ciptakan Oksigen Terbaik untuk Bumi!',
+    description: 'Bumi yang kita tempati tak sehijau dulu. Dia semakin rapuh karena ulah orang-orang tak bertanggung jawab. Hampir hilang seutuhnya pemandangan asri nan hijau di Kabupaten Tulungagung, Jawa Timur.Beberapa kawasan hutan digunduli kemudian diganti oleh lahan pertanian. Aktivitas pembukaan lahan untuk pembangunan tersebut juga turut memperparah laju deforestasi(penggundulan hutan) kawasan hutan di Kabupaten Tulungagung.',
+    imageSmall: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fkitabisa-userupload-01.s3-ap-southeast-1.amazonaws.com%2F_production%2Fuser%2F1867809%2F23_1867809_1581523776_4005_s.jpg&w=64&q=75',
+    titleImageSmall: 'ECOTON FOUNDATION'
+  },
+  {
+    imageCard: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fimgix.kitabisa.com%2F0804d329-f696-4dc4-a80f-21e569cfc525.jpg%3Fauto%3Dformat%26fm%3Dpjpg%26ch%3DWidth%2CDPR%2CSave-Data%2CViewport-Width&w=640&q=75',
+    links: 'https://kitabisa.com/campaign/rawathutantropis',
+    title: 'Bantu Rawat Hutan Tropis Kalimantan',
+    description: 'Hutan saat ini sangat membutuhkan bantukan Kamu yang peduli. Tugas dan tanggung jawab menyelamatkan hutan bukan hanya menjadi tugas pemerintah atau korporasi, tetapi merupakan tugas kita semua di muka bumi. Selama ini hutan telah memberikan manfaat yang tidak ternilai bagi seluruh makhluk hidup yang tinggal di dalamnya. Apakah kamu tahu jika hutan rusak maka dampaknya akan dirasakan oleh kamu dan seluruh makhluk hidup yang tinggal di muka bumi? Dukungan Kamu akan kami gunakan untuk membantu menjaga, merawat, dan menolong hutan tropis beserta kehidupan yang bergantung padanya, khususnya hutan tropis yang berada di Provinsi Kalimantan Barat.',
+    imageSmall: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fimg.kitabisa.cc%2Fsize%2F150x150%2Fe392571a-806b-48ba-b545-72b6987bce01.jpg&w=64&q=75',
+    titleImageSmall: 'Bentang Kalimantan Tangguh'
+  },
+  {
+    imageCard: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fimgix.kitabisa.com%2F6afc147e-41d1-4c86-8db8-3c9ae1054645.jpg%3Fauto%3Dformat%26fm%3Dpjpg%26ch%3DWidth%2CDPR%2CSave-Data%2CViewport-Width&w=640&q=75',
+    links: 'https://kitabisa.com/campaign/pohonkebaikanuntuklingkungan',
+    title: '100.000 Pohon Kebaikan Mengatasi Krisis Lingkungan',
+    description: 'Sejak tahun 2016 lalu, Yayasan Odesa Indonesia aktif bergiat mengatasi persoalan krisis lingkungan dan kemiskinan di Kawasan Bandung Utara. Tepatnya di Kecamatan Cimenyan terdapat puluhan ribu hektar lahan pertanian yang rusak akibat praktik pertanian monokultur. Ada kebutuhan jutaan bibit tanaman untuk para petani agar bisa memperbaiki ekonomi, gizi dan lingkungan.',
+    imageSmall: 'https://kitabisa.com/_next/image?url=https%3A%2F%2Fimg.kitabisa.cc%2Fsize%2F150x150%2F698b4ec8-9843-47a5-8ebf-e3c7cbf84f6f.jpg&w=64&q=75',
+    titleImageSmall: 'Amal Sosial Odesa'
+  },
 ];
 
 export default dataDonation;

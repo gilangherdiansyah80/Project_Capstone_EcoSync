@@ -18,7 +18,7 @@ class BencanaHome {
         <div class="card mb-3 mx-auto hover-card">
             <img class="card-img-top"
                 src=${data.imageCard}
-                alt="Gambar Bencana" height="300px" style= "obejct-fit:cover;">
+                alt="Gambar Bencana" height="250px" style= "obejct-fit:cover;">
             <div class="card-body text-white color2">
                 <h5 class="card-title">${data.title}</h5>
                 <p class="card-text hidden-description">${data.description}</p>

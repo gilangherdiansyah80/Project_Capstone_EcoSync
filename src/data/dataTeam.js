@@ -3,9 +3,9 @@ const teamMembers = [
         name: 'Gilang Herdiansyah Saputra',
         id: 'F237YB084',
         role: 'Riset dan Persiapan Awal, Design dan Persiapan Teknis, Front-End',
-        github: 'https://github.com/arulkharisma',
-        instagram: 'https://www.instagram.com/arulkharisma/',
-        linkedin: 'https://www.linkedin.com/in/arulkharisma/',
+        github: 'https://github.com/gilangherdiansyah80',
+        instagram: 'https://www.instagram.com/gilangherdiansyah.s/',
+        linkedin: 'https://www.linkedin.com/in/gilang-herdiansyah/',
         image: './image/gilang.jpg',
     },
     {

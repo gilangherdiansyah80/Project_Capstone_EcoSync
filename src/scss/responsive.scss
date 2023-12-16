@@ -67,4 +67,9 @@
         display: flex;
         justify-content: center;
     }
+
+    .carousel-inner {
+        max-height: none; 
+        object-fit: cover;
+    }
 }

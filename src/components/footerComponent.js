@@ -37,7 +37,7 @@ class footerCustom extends HTMLElement {
                         <div class="contact-details d-flex flex-column gap-1">
                             <div class="d-flex gap-3">
                                 <i class="fa fa-instagram" style="color: white; font-size:24px;"></i>
-                                <p>ecosync@gmail.com</p>
+                                <p>ecosync_official</p>
                             </div>
                             <div class="d-flex gap-3">
                                 <i class="fa fa-whatsapp" style="color: white; font-size:24px"></i>
@@ -45,7 +45,7 @@ class footerCustom extends HTMLElement {
                             </div>
                             <div class="d-flex gap-3">
                                 <i class="fa fa-youtube" style="color: white; font-size:24px"></i>
-                                <p>+62855648139</p>
+                                <p>EcoSync_Official</p>
                             </div>
                         </div>
                     </div>

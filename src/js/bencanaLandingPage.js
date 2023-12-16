@@ -21,7 +21,7 @@ class BencanaHome {
                 alt="Gambar Bencana" style="max-height: 250px;">
             <div class="card-body text-white color2">
                 <h5 class="card-title">${data.title}</h5>
-                <p class="card-text">${data.description}</p>
+                <p class="card-text hidden-description">${data.description}</p>
             </div>
         </div>
     </div>

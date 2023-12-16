@@ -12,9 +12,9 @@ const teamMembers = [
         name: 'Muhammad Azhari Desky',
         id: 'F251YB081',
         role: 'Riset dan Persiapan Awal, Design dan Persiapan Teknis, Peluncuran dan Peningkatan berdasarkan feedback user',
-        github: 'https://github.com/arulkharisma',
-        instagram: 'https://www.instagram.com/arulkharisma/',
-        linkedin: 'https://www.linkedin.com/in/arulkharisma/',
+        github: 'https://github.com/mazharidesky',
+        instagram: 'https://www.instagram.com/azhriidesky/',
+        linkedin: 'https://www.linkedin.com/in/muhammad-azhari-desky/',
         image: './image/desky.jpg',
     },
     {

@@ -11,13 +11,13 @@ const dataBencana = [
   },
   {
     id: 2,
-    imageCard: 'https://akcdn.detik.net.id/community/media/visual/2023/04/26/pantauan-udara-majalaya-dikepung-banjir-luapan-sungai-citarum-1_169.jpeg?w=700&q=90',
+    imageCard: 'https://asset.kompas.com/crops/SJLNbx3NJc2WFsU5kWqSVrkokLE=/0x0:0x0/750x500/data/photo/2022/12/17/639dd462b5fb5.jpg',
     title: 'Banjir Bandang',
-    location: 'Cimaung Bandung',
+    location: 'Sumedang',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    latitude: -7.086133114570647,
-    longitude: 107.56308226749152,
+        'SUMEDANG - Banjir bandang menerjang wilayah Dusun Cisurupan, Desa Sawahdadap, Kecamatan Cimanggung, Kabupaten Sumedang, Jawa Barat, Sabtu (17/12/2022) sore sekitar 17.00 WIB. Banjir bandang akibat luapan Sungai Cimande tersebut menerjang wilayah perkampungan di lereng Gunung Geulis dan menyebabkan sejumlah rumah di lokasi rusak. Selain itu, ratusan warga yang menghuni rumah di lokasi juga mengungsi ke tempat saudaranya yang lebih aman. Kepala Pelaksana Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Sumedang Atang Sutarno mengatakan, tidak ada korban jiwa dalam peristiwa ini. "Tidak ada korban jiwa, hanya beberapa orang mengalami luka-luka. Sekarang sudah meninggalkan rumah dan mengungsi ke tempat saudaranya yang lebih aman," ujar Atang kepada Kompas.com melalui sambungan telepon, Sabtu malam. Atang menuturkan, tim BPBD Sumedang saat ini juga siaga penuh di lokasi dan menutup akses wilayah yang diterjang banjir bandang. "Kami siaga penuh di lokasi dan sudah menyiapkan tempat pengungsian sementara yaitu di kantor desa," tutur Atang.',
+    latitude: -6.948771,
+    longitude: 107.807860,
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const dataBencana = [
     title: 'Tanah Longsor',
     location: 'Wonogiri',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        'Wonogiri - Bencana tanah longsor terjadi di Desa Ngroto, Kecamatan Kismantoro, Kabupaten Wonogiri. Satu orang dilaporkan hilang setelah terseret longsoran tanah. "Benar, ada tanah longsor di wilayah kami. Kejadian tadi pukul 09.00 WIB," kata Sekretaris Desa (Sekdes) Ngroto, Kardi saat dihubungi wartawan, Selasa (5/12/2023) siang. Kardi mengatakan, longsor tersebut terjadi di Dusun Jaten RT 03 RW 06, tepatnya di area persawahan. "Hujannya kemarin (Senin). Magrib sampai isya jawah (hujan). Tadi cuacanya sudah cerah," ujarnya. Akibat tanah longsor itu, Kardi menjelaskan, satu orang terseret longsor dan masih dinyatakan hilang. Warga tersebut bernama Mijem, warga Dusun Mendang RT 03 RW 04 Desa Ngroto. Usia korban sekitar 63 tahun. Kardi menambahkan, saat itu korban habis melaksanakan kerja bakti. Setelah itu korban pergi ke sawahnya di Dusun Jaten. "Mau ngrabuk (mupuk) sawah," kata dia. Ia mengatakan, korban ke sawah bersama tetangganya. "Keseret (sudah pasti), kan awalnya dua orang bersama tetangganya. Tetangganya itu ke sawahnya sendiri, Mbah Mijem juga ke sawahnya sendiri, berbatasan," kata Kardi."Sampai saat ini (pukul 12.00 WIB) masih dalam pencarian," imbuhnya.',
     latitude: -7.890024,
     longitude: 111.219568,
   },
@@ -35,17 +35,17 @@ const dataBencana = [
     title: 'Gempa Bumi',
     location: 'Maluku Utara',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        'Pulau Morotai - Gempa bumi berkekuatan magnitudo (M) 4,2 mengguncang wilayah Daruba, Kabupaten Pulau Morotai, Maluku Utara (Malut). Gempa terjadi dari kedalaman 19 kilometer. Badan Meteorologi, Klimatologi dan Geofisika (BMKG) melaporkan gempa terjadi pada Selasa (5/12/2023). Gempa Daruba tepatnya terjadi pada pukul 22.10 WIT. "Gempa Mag: 4.2," tulis BMKG lewat akun X-nya @infoBMKG. BMKG menyampaikan episentrum gempa berada di koordinat 2.66 derajat lintang utara dan 128.24 derajat bujur timur. Tepatnya 68 kilometer barat laut Daruba, Malut. "68 km barat laut Daruba, Malut. Kedalaman 19 km," tambah BMKG.',
     latitude: 2.075283,
     longitude: 128.312568,
   },
   {
     id: 5,
     imageCard: 'https://akcdn.detik.net.id/community/media/visual/2021/01/27/gunung-merapi-erupsi-siang-ini-begini-potretnya-3_169.jpeg?w=700&q=90',
-    title: 'Letusan Gunung',
+    title: 'Gunung Erupsi',
     location: 'Boyolali',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        'Proses pencarian dan evakuasi korban erupsi Gunung Marapi telah dihentikan, Rabu (6/12), karena seluruh korban telah ditemukan dan dievakuasi. Wakapolda Sumbar, Brigjen Pol Edi Mardiyanto mengatakan semua instansi yang dilibatkan dalam proses pencarian dan evakuasi korban erupsi Gunung Marapi akan kembali ke satuan masing-masing. Pendakian Gunung Marapi juga ditutup. "Seluruh korban telah ditemukan sebanyak 75 orang sesuai dengan data dari BKSDA Sumbar. Sebanyak 52 orang selamat dan 23 orang meninggal dunia," kata Edi kepada wartawan di Posko erupsi Gunung Marapi, Batu Palano, Agam, Sumbar. Korban terakhir yang ditemukan tim SAR dalam kondisi meninggal dunia, pada Rabu (06/12).',
     latitude: -7.539246,
     longitude: 110.444589,
   },
@@ -55,7 +55,7 @@ const dataBencana = [
     title: 'Tsunami',
     location: 'Sulawesi Tengah',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        'Di hari terakhir evakuasi, kembali ditemukan sejumlah jenazah, dan korban tewas seluruhnya menjadi 2.045 orang, sementara ratusan lain dinyatakan hilang selain ribuan orang yang dicemaskan tewas tak teridentifikasi karena likuifaksi. "Adapun para korban selamat yang dulu penduduk Balaroa, Petobo dan Jono Oge, yang hancur oleh likuifaksi, mereka semua meminta direlokasi ke tempat lain," kata Sutopo Purwo Nugroho juru bicara Badan Nasional Penanggulangan Bencana (BNPB). "Itu data sampai pukul 13.00, tanggal 10 Oktober ini," kata Sutopo dalam jumpa pers di BNPB, seperti dilaporkan Quiniwaty Pasaribu dari BBC News Indonesia.',
     latitude: -0.900179,
     longitude: 119.836184,
   },

@@ -14,6 +14,7 @@ class BencanaHome {
     const content = dataBencana.map((data) => {
       if (data) {
         return `
+        <a href="./detail-bencana.html" class="title-bencana-home">
         <div class="col">
         <div class="card mb-3 mx-auto hover-card">
             <img class="card-img-top"
@@ -25,6 +26,7 @@ class BencanaHome {
             </div>
         </div>
     </div>
+    </a>
      `;
       }
       return '';

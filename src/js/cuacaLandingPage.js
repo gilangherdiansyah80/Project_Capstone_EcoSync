@@ -54,8 +54,14 @@ export default class Cuaca {
     const month = currentDate.getMonth() + 1;
     const day = currentDate.getDate();
     const lokasiUser = document.querySelector('#lokasi-user');
-    lokasiUser.innerText = `${closestWilayah.kota}, ${year}-${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day} 
-    `;
+    // lokasiUser.innerText = `${closestWilayah.kota}, ${year}-${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}
+    // `;
+    lokasiUser.innerHTML = `
+    <div>    
+    <p>
+    <i class="fa fa-map-marker" aria-hidden="true"></i>
+    ${closestWilayah.kota}, ${year}-${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day} </p>
+    </div>`;
 
     // Tampilkan cuaca wilayah terdekat
     const cuacaData = await fetch(`https://ibnux.github.io/BMKG-importer/cuaca/${closestWilayah.id}.json`)

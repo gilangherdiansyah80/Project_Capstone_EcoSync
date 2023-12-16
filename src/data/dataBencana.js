@@ -1,13 +1,13 @@
 const dataBencana = [
   {
     id: 1,
-    imageCard: 'https://pict-c.sindonews.net/webp/732/pena/news/2023/12/15/170/1277133/puting-beliung-rusak-12-rumah-warga-di-sawangan-1-korban-luka-tertimpa-asbes-wiu.webp',
-    title: 'Puting Beliung',
-    location: 'KP Perigi Bedahan, Sawangan, Depok',
+    imageCard: 'https://acehtenggarakab.go.id/thumbnail/1200x630/media/2022.04/banjir_semadam_asli1.jpg',
+    title: 'Banjir Bandang',
+    location: 'Simpang Semadam, Kutacane, Aceh Tenggara',
     description:
-        'BOGOR - Belasan rumah warga di RT3/6, Bedahan, Sawangan, Kota Depok rusak akibat diterpa angin puting beliung. Peristiwa tersebut terjadi saat hujan deras disertai angin kencang melanda Depok dan sekitarnya. "Hari sekitar jam 17.15 WIB telah terjadi bencana angin puting beliung di Kp Perigi RT 3 RW 6, Bedahan, Sawangan, Kota Depok," kata Kapolsek Bojongsari, Kompol Yefta Ruben H Aruan, pada Kamis (14/12/2023). "Kerugian materil yang baru diperkirakan 12 rumah rusak total data data warga yang terkena bencana angin puting beliung," imbuhnya. Artikel ini telah diterbitkan di halaman SINDOnews.com pada Jum`at, 15 Desember 2023 - 00:18 WIB oleh Muhammad Refi Sandi dengan judul "Puting Beliung Rusak 12 Rumah Warga di Sawangan Depok, 1 Korban Luka Tertimpa Asbes"',
-    latitude: -6.434157762105475,
-    longitude: 106.76963823236008,
+        'JAKARTA – Banjir bandang terjadi di Kabupaten Aceh Tenggara, Provinsi Aceh, pada Senin malam (13/11). Peristiwa ini mengakibatkan satu balita atas nama MA (2 tahun) meninggal dunia terseret arus banjir. Dua orang warga lainnya mengalami luka. Peristiwa banjir bandang tersebut menerjang Desa Pasir Panjang, Kecamatan Semadam. Sedangkan wilayah lainnya mengalami banjir setelah hujan deras mengguyur hampir seluruh wilayah Aceh Tenggara. BPBD setempat melaporkan hujan mulai turun sejak pukul 19:00 WIB. Hujan lebat berdurasi lama itu mengakibatkan debit air Sungai Lawe Kinga, Sungai Pasar Puntung, Sungai Lawe Alas, Sungai Lawe Bulan dan Sungai Gunung Malas Bukit Baru meluap ke pemukiman warga sekitar pukul 22.00 WIB.Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Aceh Tenggara bersama tim gabungan terus melakukan pendataan jumlah korban terdampak. Banjir menyebabkan kerusakan pada rumah warga antara lain 3 unit rumah warga rusak berat, 1 unit rumah rusak sedang, dan 1 unit lainnya rusak ringan. Banjir juga merusak sejumlah infrastruktur di Kabupaten Aceh Tenggara. Tercatat tiga jembatan mengalami sumbatan yaitu di Desa Kuning (Kecamatan Bambel), Desa Pasir Puntung (Kecamatan Semadam), dan Desa Bukit Baru (Kecamatan Ketambe). Oprit Jembatan Desa Mbarung di Kecamatan Babussalam dilaporkan jebol dan ambruk. Sementara itu,',
+    latitude: 3.4015570787746716,
+    longitude: 97.89909008335019,
   },
   {
     id: 2,

@@ -135,6 +135,17 @@ $box-shadow-sm: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
     background-color: #f0f0f0;
 }
 
+// ========= Bencana Components==========
+
+.title-bencana-home {
+    color: white;
+    text-decoration: none;
+}
+
+.title-bencana-home:hover {
+    color: black;
+    text-decoration: none;
+}
 
 // =========Scrollbar Weather Components==========
 .cuaca::-webkit-scrollbar {

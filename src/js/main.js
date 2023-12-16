@@ -12,7 +12,11 @@ import WeatherApp from './cuaca';
 import Pagination from './pagination';
 import Cuaca from './cuacaLandingPage';
 import BencanaHome from './bencanaLandingPage';
+import generateTeamMemberCards from './team';
 
+document.addEventListener('DOMContentLoaded', () => {
+    generateTeamMemberCards();
+});
 const myBencana = new Bencana();
 myBencana.init();
 

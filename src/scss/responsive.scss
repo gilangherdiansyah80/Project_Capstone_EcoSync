@@ -18,6 +18,17 @@
    .detail-bencana-content{
     flex-direction: column-reverse;
    }
+
+   .contact{
+    display: flex;
+    justify-content: center;
+}
+// footer styling
+.contact-details{
+    width: 50%;
+}
+
+   
 }
 
 @media only screen and (max-width: 560px) {
@@ -55,9 +66,13 @@
     .cuaca{
         gap: 15px;
     }
-    .cuaca-item{
-        // width: 500px;
-        // padding: 0;
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+    // footer styling
+    .contact-details{
+        width: 50%;
     }
 }
 

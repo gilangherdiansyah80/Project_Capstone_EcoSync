@@ -18,31 +18,35 @@ class footerCustom extends HTMLElement {
                 </div>
                 <div class="col-md-3 offset-md-2">
                     <h5 class="text-center text-md-start">Contact</h5><br>
-                    <div class="contact-details d-flex flex-column gap-1">
-                        <div class="d-flex gap-3">
-                            <i class="fa fa-envelope" style="font-size:24px;"></i>
-                            <p>ecosync@gmail.com</p>
-                        </div>
-                        <div class="d-flex gap-3">
-                            <i class="fa fa-phone" style="font-size:24px"></i>
-                            <p>+62855648139</p>
+                    <div class="contact">
+                        <div class="contact-details d-flex flex-column gap-1">
+                            <div class="d-flex gap-3">
+                                <i class="fa fa-envelope" style="font-size:24px;"></i>
+                                <p>ecosync@gmail.com</p>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <i class="fa fa-phone" style="font-size:24px"></i>
+                                <p>+62855648139</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <h5 class="text-sm-center text-lg-start">Social Media</h5><br>
-                    <div class="contact-details d-flex flex-column gap-1">
-                        <div class="d-flex gap-3 justify-content-sm-center  justify-content-md-start">
-                            <i class="fa fa-instagram" style="color: white; font-size:24px;"></i>
-                            <p>ecosync@gmail.com</p>
-                        </div>
-                        <div class="d-flex gap-3 justify-content-sm-center  justify-content-md-start">
-                            <i class="fa fa-whatsapp" style="color: white; font-size:24px"></i>
-                            <p>+62855648139</p>
-                        </div>
-                        <div class="d-flex gap-3 justify-content-sm-center  justify-content-md-start">
-                            <i class="fa fa-youtube" style="color: white; font-size:24px"></i>
-                            <p>+62855648139</p>
+                    <h5 class="text-center text-md-start">Social Media</h5><br>
+                    <div class="contact">
+                        <div class="contact-details d-flex flex-column gap-1">
+                            <div class="d-flex gap-3">
+                                <i class="fa fa-instagram" style="color: white; font-size:24px;"></i>
+                                <p>ecosync@gmail.com</p>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <i class="fa fa-whatsapp" style="color: white; font-size:24px"></i>
+                                <p>+62855648139</p>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <i class="fa fa-youtube" style="color: white; font-size:24px"></i>
+                                <p>+62855648139</p>
+                            </div>
                         </div>
                     </div>
                 </div>

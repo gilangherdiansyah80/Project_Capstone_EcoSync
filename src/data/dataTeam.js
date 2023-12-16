@@ -39,9 +39,9 @@ const teamMembers = [
         name: 'Muhammad Alim Hidayat',
         id: 'S012YB497',
         role: 'Riset dan Persiapan Awal, Front-End, Back-End & Testing',
-        github: 'https://github.com/arulkharisma',
-        instagram: 'https://www.instagram.com/arulkharisma/',
-        linkedin: 'https://www.linkedin.com/in/arulkharisma/',
+        github: 'https://github.com/MuhalimHidayat',
+        instagram: 'https://www.instagram.com/alimmmst/',
+        linkedin: 'https://www.linkedin.com/in/muhammad-alim-hidayat-22299529a/',
         image: './image/alim.jpeg',
     },
 ];

@@ -109,15 +109,15 @@ class Bencana {
       cardBencana.innerHTML = `
         <div class="col">
           <div class="card mb-3 w-100 rounded-5 shadow-sm hover-card" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
+            <div class="row flex-column g-0">
+              <div class="col-md-12">
                 <img
                   src="${clickedData.imageCard}"
                   class="img-fluid rounded-5 h-100 p-3"
                   alt="kebakaran"
                 />
               </div>
-              <div class="col-md-8">
+              <div class="col-md-12">
                 <div class="card-body">
                   <a href="#" class="text-decoration-none"><h5 class="card-title link-dark link-opacity-25-hover">${clickedData.title}</h5></a>
                   <p class="card-text">

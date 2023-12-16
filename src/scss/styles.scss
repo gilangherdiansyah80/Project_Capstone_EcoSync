@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
 $color_1: #9ca3af;
-$color_2: black;
+$color_2: #2d2b2b;
 
 $background-color_1: #2A3C2E;
 $background-color_2: #669179d7;
@@ -84,6 +84,7 @@ $box-shadow-sm: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
         text-align: center;
         color: $color_2;
         font-weight: bold;
+        font-size: 9pt;
     }
 }
 

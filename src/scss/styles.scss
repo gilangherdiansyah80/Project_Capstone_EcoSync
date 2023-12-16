@@ -107,7 +107,8 @@ $box-shadow-sm: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
 }
 
 #scrollable-container {
-    max-height: 650px; /* Adjust the height as needed */
+    max-height: 650px;
+    /* Adjust the height as needed */
     overflow-y: auto;
 }
 
@@ -119,7 +120,16 @@ $box-shadow-sm: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
 }
 
 .carousel-inner {
-    max-height: 500px; 
+    max-height: 500px;
     object-fit: cover;
     border-radius: 45px;
+}
+
+.result-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.result-item:hover {
+    background-color: #f0f0f0;
 }

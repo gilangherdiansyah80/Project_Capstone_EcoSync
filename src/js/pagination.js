@@ -54,7 +54,7 @@ class Pagination {
               <img src="${data.imageCard}" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title fs-6">${data.title}</h5>
-                <p class="card-text mt-4">${data.description}</p>
+                <p class="card-text mt-4 hidden-description">${data.description}</p>
                 <p class="fw-bold mb-0 mt-4">
                   <img src="${data.imageSmall}" class="rounded img-fluid" width="30px" alt="">
                   ${data.titleImageSmall} <i class="bi bi-patch-check-fill ms-2" style="color: #10a8e5;"></i>

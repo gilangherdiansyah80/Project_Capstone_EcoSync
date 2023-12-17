@@ -8,7 +8,7 @@ class footerCustom extends HTMLElement {
             <footer class="mt-5 py-5 color1 text-white">
             <div class="container">
             <div class="row">
-                <div class="col-md-5 text-center text-md-start">
+                <div class="footer-text col-md-5 text-center text-md-start">
                     <h3 class="fw-bold">EcoSync</h3><br>
                     <p class="mt-3">Dengan fokus pada keberlanjutan dan inovasi, EcoSync memberikan pemahaman yang
                         mendalam kepada pengguna tentang tantangan lingkungan saat ini. Platform ini tidak hanya
@@ -16,7 +16,7 @@ class footerCustom extends HTMLElement {
                         pemantauan cuaca.
                     </p>
                 </div>
-                <div class="col-md-3 offset-md-2">
+                <div class="footer-text  col-md-3 offset-md-2">
                     <h5 class="text-center text-md-start">Contact</h5><br>
                     <div class="contact">
                         <div class="contact-details d-flex flex-column gap-1">
@@ -31,7 +31,7 @@ class footerCustom extends HTMLElement {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="footer-text col-md-2">
                     <h5 class="text-center text-md-start">Social Media</h5><br>
                     <div class="contact">
                         <div class="contact-details d-flex flex-column gap-1">
@@ -54,7 +54,7 @@ class footerCustom extends HTMLElement {
             <hr class="bg-white">
             <div class="row">
                 <!-- copyright -->
-                <div class="text-white">
+                <div class="text-white footer-text">
                     <p>&copy; 2021 EcoSync. All rights reserved.</p>
                 </div>
             </div>

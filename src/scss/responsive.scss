@@ -88,9 +88,15 @@
     }
 
     .carousel_responsive {
-        max-width: 332px;
+        max-width: 350px;
+        height: 175px;
         margin: auto;
         margin-top: 20px;
+    }
+
+    .carousel_responsive img{
+        max-width: 350px;
+        height: 175px;
     }
 
     .bencana_home {

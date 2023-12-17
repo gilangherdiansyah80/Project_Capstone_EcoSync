@@ -47,4 +47,5 @@ jobs:
           git branch -r
           git checkout main
           git merge other_repo/main --allow-unrelated-histories -Xtheirs
+          npm install node-sass
           git push origin main

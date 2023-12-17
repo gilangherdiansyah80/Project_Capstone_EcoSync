@@ -84,6 +84,17 @@
     }
 
     .carousel-inner {
-        border-radius: 30px;
+        border-radius: 7px;
+    }
+
+    .carousel_responsive {
+        max-width: 332px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bencana_home {
+        margin: 0;
+        padding: 0;
     }
 }

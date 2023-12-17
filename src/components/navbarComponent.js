@@ -9,7 +9,7 @@ class NavbarCustom extends HTMLElement {
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid px-lg-5">
               <a href="#" class="navbar-brand">
-                <img class="w-40" src="./image/logo.png" alt="...">
+                <img class="w-50" src="./image/logo.png" alt="...">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

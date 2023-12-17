@@ -84,9 +84,9 @@
     }
 
     .carousel-inner {
-        border-radius: 18px;
-        max-width: 300px;
-        min-height: 175px;
+        border-radius: 5px;
+        max-width: 332px;
+        height: 175px;
         object-fit: cover;
         align-items: center;
         justify-content: center;
@@ -94,12 +94,12 @@
     }
 
     .carousel-inner img {
-        max-width: 300px;
-        min-height: 175px;
+        max-width: 332px;
+        height: 175px;
     }
 
     .bencana {
-        margin
+        margin: 0;
     }
 
     #bencana-home {

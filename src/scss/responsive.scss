@@ -84,13 +84,13 @@
     }
 
     .carousel-inner {
-        border-radius: 5px;
+        border-radius: 7px;
         max-width: 332px;
         height: 175px;
         object-fit: cover;
         align-items: center;
         justify-content: center;
-        margin: 20px auto 0 auto;
+        margin: 30px auto 0 auto;
     }
 
     .carousel-inner img {
@@ -104,5 +104,13 @@
 
     #bencana-home {
         margin: -10px -48px;
+    }
+
+    iframe {
+        object-fit: cover;
+    }
+
+    .ytp-cued-thumbnail-overlay-image {
+        position: static !important;
     }
 }

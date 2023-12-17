@@ -77,9 +77,15 @@
 }
 
 @media only screen and (max-width: 434px) {
+
     .cuaca-hourly {
         margin: auto;
         display: flex;
+        justify-content: center;
+    }
+
+    .card-margin {
+        margin: auto 25px auto 25px;
         justify-content: center;
     }
 
@@ -88,19 +94,23 @@
     }
 
     #carouselExampleIndicators {
-        max-width: 350px;
+        max-width: 320px;
         height: 175px;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     #carouselExampleIndicators img{
-        max-width: 350px;
+        max-width: 340px;
         height: 175px;
     }
 
     .bencana_home {
         margin: 0;
         padding: 0;
+    }
+
+    .detail-bencana-width {
+        max-width: 360px;
     }
 }

@@ -20,10 +20,10 @@ const teamMembers = [
     {
         name: 'Muhammad Zain Rizqulloh',
         id: 'F156YB088',
-        role: ' Riset dan Persiapan Awal, Front-End, Peluncuran dan Peningkatan berdasarkan feedback user',
-        github: 'https://github.com/arulkharisma',
-        instagram: 'https://www.instagram.com/arulkharisma/',
-        linkedin: 'https://www.linkedin.com/in/arulkharisma/',
+        role: ' Riset dan Persiapan Awal, DevOps, Peluncuran dan Peningkatan berdasarkan feedback user',
+        github: 'https://github.com/MZAINR',
+        instagram: 'https://www.instagram.com/muhammad_zain_r/',
+        linkedin: 'https://shorturl.at/hpvN3',
         image: './image/zain.jpg',
     },
     {

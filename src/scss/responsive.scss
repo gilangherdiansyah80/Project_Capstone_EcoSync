@@ -84,33 +84,6 @@
     }
 
     .carousel-inner {
-        border-radius: 7px;
-        max-width: 332px;
-        height: 175px;
-        object-fit: cover;
-        align-items: center;
-        justify-content: center;
-        margin: 30px auto 0 auto;
-    }
-
-    .carousel-inner img {
-        max-width: 332px;
-        height: 175px;
-    }
-
-    .bencana {
-        margin: 0;
-    }
-
-    #bencana-home {
-        margin: -36px;
-    }
-
-    iframe {
-        object-fit: cover;
-    }
-
-    .ytp-cued-thumbnail-overlay-image {
-        position: static !important;
+        border-radius: 30px;
     }
 }

@@ -40,8 +40,6 @@ jobs:
       env:
         SUPER_SECRET: ${{ secrets.COBA3 }}
       run: |
-          git config --global user.email "zainrizqulloh@gmail.com"
-          git config --global user.name "MZAINR"
           git remote add other_repo https://github.com/gilangherdiansyah80/Project_Capstone_EcoSync.git
           git fetch other_repo
           git branch -r

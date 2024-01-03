@@ -1,5 +1,5 @@
-Feature('cuaca_search_bar');
+// Feature('cuaca_search_bar');
 
-Scenario('test something',  ({ I }) => {
+// Scenario('test something',  ({ I }) => {
 
-});
+// });

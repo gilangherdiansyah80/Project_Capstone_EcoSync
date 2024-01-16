@@ -26,8 +26,11 @@ jobs:
     - name: Installations
       run: npm install
 
-    - name: Linting
+    - name: Linting and End-to-End Testing
       run: npm run lint
+      
+    - name: End-to-End Testing
+      run: npm run e2e
 
     - name: Checkout Friend's Repository
       uses: actions/checkout@v2

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack serve --config webpack.dev.js",
+    "e2e": "codeceptjs run --steps",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ."
   },

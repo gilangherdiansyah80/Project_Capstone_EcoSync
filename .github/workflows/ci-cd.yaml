@@ -17,7 +17,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       
-
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -28,6 +27,9 @@ jobs:
 
     - name: Linting and End-to-End Testing
       run: npm run lint
+
+    - name: Install Playwright browsers
+      run: npx playwright install
       
     - name: End-to-End Testing
       run: npm run e2e

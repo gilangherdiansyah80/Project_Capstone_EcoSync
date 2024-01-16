@@ -40,7 +40,7 @@ jobs:
     - name: Checkout Friend's Repository
       uses: actions/checkout@v2
       with:
-        repository: 'Arulkharisma/EcoSync' 
+        repository: 'MZAINR/Capstone_Project' 
         token: ${{ secrets.COBA3 }}
 
     - name: Push Changes to Your Repository
